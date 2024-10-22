@@ -1,0 +1,17 @@
+#include <stdio.h>
+void main()
+{
+    int a,n,sum=0;
+    printf("Enter the number:");
+    scanf("%d",&a);
+    while(a>=1)
+    {
+        n=a%10;
+        sum=n+sum;
+        a=a/10;
+    }
+    printf("%d",sum);
+}
+
+Enter the number:1327
+13
