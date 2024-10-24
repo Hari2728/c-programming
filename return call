@@ -1,0 +1,29 @@
+#include <stdio.h>
+void raju(int a) {
+    if (a == 1)
+    return;
+    a--;
+    raju(a);
+    printf("Hai\n");
+    raju(a);
+}
+void main() {
+    raju(5);
+}
+
+output
+Hai
+Hai
+Hai
+Hai
+Hai
+Hai
+Hai
+Hai
+Hai
+Hai
+Hai
+Hai
+Hai
+Hai
+Hai
