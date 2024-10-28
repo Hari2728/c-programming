@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+void main()
+{
+   char name[10];
+   printf("Enter your name");
+   fgets(name,sizeof(name),stdin);
+   printf("conform name");
+   puts(name);
+   printf("The total digits id %d",strlen(name)-1);
+}
+
+output
+Enter your name HARI
+conform name HARI
+
+The total digits id 5
